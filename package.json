@@ -2,5 +2,9 @@
   "name": "mermaid-markdown-intree",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:scowalt/mermaid-markdown-intree.git"
+  "repository": "git@github.com:scowalt/mermaid-markdown-intree.git",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^8.10.2",
+    "husky": "^6.0.0"
+  }
 }
