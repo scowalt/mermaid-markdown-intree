@@ -1,4 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-bash dev_scripts/precommit.sh
+# Only run the mermaid cli for modified .mmd files
+git diff --cached --name-only --diff-filter=ACM | grep .mmd$ | xargs npx mmdc -t dark -i
+
+# Make sure to add the output!
+git add ./**/**.mmd.svg
