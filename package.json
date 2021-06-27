@@ -4,8 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:scowalt/mermaid-markdown-intree.git",
   "devDependencies": {
-    "@mermaid-js/mermaid-cli": "^8.10.2",
-    "husky": "^6.0.0"
+    "@mermaid-js/mermaid-cli": "8.10.2",
+    "husky": "6.0.0"
   },
   "scripts": {
     "prepare": "husky install"
