@@ -20,3 +20,4 @@ Whenever a commit is created that includes a modified `.mmd` file, the mermaid c
 - At time of writing, the `.svg` will be regenerated for each change to the `.mmd` file, even if the `.mmd` change doesn't change the output.
 - The SVG file in the README won't share the themeing of Github. Generating in a `dark` theme will look fine on dark Github, but bad on light Github.
 - It appears that some Github caching may cause the `.svg` in the README to update slightly afer a commit modifies the `.svg` in the blob.
+- While mermaid is great in that it's open-source, its sequence diagram creation isn't as powerful as text-based alternative [sequencediagram.org](https://sequencediagram.org/).
