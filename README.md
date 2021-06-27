@@ -12,3 +12,7 @@ This repository aims to work around this issue. The setup here is:
 
 ## End result
 ![SVG generated from mermaid](docs/sequence.mmd.svg)
+
+## Downsides
+- At time of writing, the `.svg` will be regenerated for each change to the `.mmd` file, even if the `.mmd` change doesn't change the output.
+- The SVG file in the README won't share the themeing of Github. Generating in a `dark` theme will look fine on dark Github, but bad on light Github.
