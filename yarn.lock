@@ -7,13 +7,13 @@
   resolved "https://registry.yarnpkg.com/@braintree/sanitize-url/-/sanitize-url-3.1.0.tgz#8ff71d51053cd5ee4981e5a501d80a536244f7fd"
   integrity sha512-GcIY79elgB+azP74j8vqkiXz8xLFfIzbQJdlwOPisgbKT00tviJQuEghOXSMVxJ00HoYJbGswr4kcllUc4xCcg==
 
-"@mermaid-js/mermaid-cli@8.10.2":
-  version "8.10.2"
-  resolved "https://registry.yarnpkg.com/@mermaid-js/mermaid-cli/-/mermaid-cli-8.10.2.tgz#518b6f3817cdc110c15e70d5626acb35719e929e"
-  integrity sha512-aoGVAZC/goUc6iWYef5aRjCwITojjWvlEj+qPHCEbAGisR4md3fi3+3iDD3ra+zhagfXJZ1Qyo5+3lVkJPaC6Q==
+"@mermaid-js/mermaid-cli@8.11.0":
+  version "8.11.0"
+  resolved "https://registry.yarnpkg.com/@mermaid-js/mermaid-cli/-/mermaid-cli-8.11.0.tgz#22f85cb3ed09eb3579596a30c53b2f41a0e627ee"
+  integrity sha512-UyYOnVhvKcfh9e2S4QnK53uRa2hvdgQVo3ZT+FcaP56ZeBDNWKB3IZI/sNzAbxqJBEuRpW6HxoEzHCleis1dFw==
   dependencies:
     chalk "^4.1.0"
-    commander "^7.2.0"
+    commander "^8.0.0"
     mermaid "^8.9.0"
     puppeteer "^10.0.0"
 
@@ -133,10 +133,10 @@ commander@2, commander@^2.19.0, commander@^2.20.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-commander@^7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
-  integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
+commander@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-8.0.0.tgz#1da2139548caef59bd23e66d18908dfb54b02258"
+  integrity sha512-Xvf85aAtu6v22+E5hfVoLHqyul/jyxh91zvqk/ioJTQuJR7Z78n7H558vMPKanPSRgIEeZemT92I2g9Y8LPbSQ==
 
 concat-map@0.0.1:
   version "0.0.1"
