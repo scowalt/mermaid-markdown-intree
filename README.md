@@ -4,7 +4,7 @@ Github [doesn't support mermaid for markdown files](https://github.community/t/f
 This repository aims to work around this issue. The setup here is:
 
 1. Have a file [`sequence.mmd`](./docs/sequence.mmd) in the repo.
-1. Setup the mermaid cli and husky in the repo in `package.json`
+1. Setup the [mermaid cli](https://github.com/mermaid-js/mermaid-cli) and [husky](https://typicode.github.io/husky/#/) in the repo in `package.json`
 1. Run `husky install` to setup husky hooks
 1. Setup a script [`pre-commit`](./.husky/pre-commit) that will generate an `.svg` file from the `.mmd` file if there are changes to the .svg file
 1. Configure a precommit hook that runs `precommit.sh` with husky.
