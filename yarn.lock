@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@braintree/sanitize-url/-/sanitize-url-3.1.0.tgz#8ff71d51053cd5ee4981e5a501d80a536244f7fd"
   integrity sha512-GcIY79elgB+azP74j8vqkiXz8xLFfIzbQJdlwOPisgbKT00tviJQuEghOXSMVxJ00HoYJbGswr4kcllUc4xCcg==
 
-"@mermaid-js/mermaid-cli@8.11.5":
-  version "8.11.5"
-  resolved "https://registry.yarnpkg.com/@mermaid-js/mermaid-cli/-/mermaid-cli-8.11.5.tgz#4a189dffae447103f1464d4ef5d59bc72261187c"
-  integrity sha512-kvOJ9VkabUFEASC0yE7KiWT7e8t2OBb6cw4YOXctXRJtbxSubLSANpfSxuy+MuaR9JJCMWcqD6sYy8FmdaPiaQ==
+"@mermaid-js/mermaid-cli@8.12.0":
+  version "8.12.0"
+  resolved "https://registry.yarnpkg.com/@mermaid-js/mermaid-cli/-/mermaid-cli-8.12.0.tgz#0498ec15b659a48f91468bd0066cbdbaa6a44928"
+  integrity sha512-h7GNKAk3NmzMgG+yKYtGzxoazSCzAb9DqQnebj45ky+nYTVTgRZqLIbitcinwuK1iiLaeMkx9ePKbdpBShO7FA==
   dependencies:
     chalk "^4.1.0"
     commander "^8.0.0"
